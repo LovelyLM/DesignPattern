@@ -5,13 +5,6 @@ package simplefactorypattern;
  * @Date 2021/4/15 015 20:41
  */
 public class Factory {
-
-    public static void main(String[] args) {
-
-    }
-
-
-
     public static Operation createOperation(String name){
         Operation operation;
         switch (name){
